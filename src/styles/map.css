@@ -2,10 +2,10 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
   }
   .map-container{
-      margin: auto 2;
-      padding: 20px;
+      /* margin: auto; */
+      /* padding: 20px; */
   }
