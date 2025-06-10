@@ -9,7 +9,10 @@ const LayerButtons = ({ layers, onSelect }) => {
                 <button
                     key={layer.name}
                     className="px-4 py-2 bg-red-500 text-white rounded"
-                    onClick={() => onSelect(layer.url)}
+                    onClick={() => {
+                        console.log(onSelect(layer.url));
+                        
+                    }}
                 >
                     {layer.name}
                 </button>

@@ -7,17 +7,17 @@ import LayerButtons from './components/gis/LayerButton.jsx';
 function App() {
     const vectorLayersList = [
         {
-            name: 'Test1',
-            url:'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
+            name: 'Layer1',
+            url:'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}',
             attributions: '© OpenStreetMap contributors'
         },
         {
-            name: 'Test2',
+            name: 'Layer2',
             url: 'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
             attributions:'© National map'
         },
         {
-            name: 'Test3',
+            name: 'Layer3',
             url: 'https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer/tile/{z}/{y}/{x}',
             attributions: '© National map',
         }
